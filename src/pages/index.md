@@ -1,58 +1,65 @@
 ---
 title: Home
 sections:
-  - type: section_hero
-    section_id: hero
-    title: This Is A Big Hero Headline
+  - actions:
+      - label: Join the CEO Mastermind Alliance
+        url: /join-the-alliance
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
-    image: images/hero.png
-    actions:
-      - label: Learn More
-        url: /features
-  - type: section_features
-    section_id: features
-    title: Features
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    bg: gray
+      Create better systems to quiet your business's chaos. Free up more free
+      time. Reduce stress. Increase revenues.
+    image: /images/6.jpg
+    section_id: hero
+    title: Make 2020 your biggest year yet
+    type: section_hero
+  - bg: gray
     featureslist:
-      - title: The Best Feature of Your Services
+      - actions:
+          - label: See Why Vision is Everything
+            url: /vision
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        image: images/feature1.png
-        actions:
+          We begin every session with a look at your company's overall strategy
+          and vision. And we aren't talking about that lame corporate mission
+          you have framed on your conference room wall.
+        image: /images/11.jpg
+        title: Strategic Coaching From Leadership Experts
+      - actions:
           - label: Learn More
             url: /features
-      - title: Awesome Feature of Your Services
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          As a CEO, do you feel like you have no one else to turn to? No
+          sounding board? The brightest business minds from Philly's own Ben
+          Franklin to Dale Carnegie to Henry Ford to Richard Branson all had
+          mastermind groups. They surrounded themselves with peers who could
+          understand their problems and help each other solve business
+          challenges.
         image: images/feature2.png
-        actions:
+        title: Monthly Mastermind with Other CEO's
+      - actions:
           - label: Learn More
             url: /features
-      - title: Cool Feature of Your Services
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        image: images/feature3.png
-        actions:
-          - label: Learn More
-            url: /features
-  - type: section_reviews
-    section_id: reviews
-    title: Testimonials
+          Inc defines it as **“unprofitable blind spots”.** You don’t know what
+          you don’t know because you’re too close to your business. Now you have
+          a team to help.\
+
+          \
+
+          At the end of the day, success or failure of a business comes down to
+          what the person at the top – you, the CEO – did or didn’t do.
+
+
+          The second biggest contributing factor to the 96% failure rate, was
+          due to **MISTAKES and MISSTEPS.**
+        image: /images/9.jpg
+        title: Make Better Decisions
+    section_id: features
     subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    bg: white
+      Business leaders like you have more stress, more chaos, more competition
+      and feel like they wear every hat in their business. Our mastermind helps
+      you regain control of your business and live a better life.
+    title: Most Businesses We Meet With Are Broken
+    type: section_features
+  - bg: white
     reviews:
       - author: John Doe
         avatar: images/review1.jpg
@@ -70,20 +77,27 @@ sections:
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - type: section_cta
-    section_id: call-to-action
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
+    section_id: reviews
+    subtitle: >-
+      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
+      semper libero id sodales. 
+    title: Testimonials
+    type: section_reviews
+  - actions:
       - label: Get Started
         url: /signup
-  - type: section_posts
+    section_id: call-to-action
+    subtitle: This is an optional description for the call to action block.
+    title: This Is Call To Action Block!
+    type: section_cta
+  - bg: gray
     section_id: recent-posts
     title: Latest Posts
-    bg: gray
+    type: section_posts
 menus:
   main:
     title: Home
     weight: 1
 template: landing
 ---
+
