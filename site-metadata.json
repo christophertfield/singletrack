@@ -1,36 +1,36 @@
 {
-    "title": "Stackbit Azimuth Theme",
-    "palette": "blue",
-    "header": {
-        "title": "Azimuth",
-        "logo_img": "images/logo.png",
-        "has_nav": true,
-        "menu": {
-            "actions": [
-                {
-                    "label": "Sign Up",
-                    "url": "/signup"
-                }
-            ]
+  "title": "SingleTrack",
+  "palette": "blue",
+  "header": {
+    "title": "Data driven business growth",
+    "logo_img": "/images/single-track-logo-15.30.48.png",
+    "has_nav": true,
+    "menu": {
+      "actions": [
+        {
+          "label": "Free Strategy Session",
+          "url": "/free-strategy-session"
         }
-    },
-    "footer": {
-        "logo_img": "images/logo_alt.png",
-        "tagline": "SaaS theme by Stackbit",
-        "has_nav": true,
-        "nav_title": "Company",
-        "has_social": true,
-        "social_title": "Community",
-        "has_subscribe": true,
-        "subscribe_title": "Subscribe",
-        "subscribe_content": "Stay up to date with our latest developments.",
-        "content": "&copy; Stackbit. All rights reserved.",
-        "links": [
-            {
-                "text": "Made with Stackbit",
-                "url": "https://www.stackbit.com",
-                "new_window": true
-            }
-        ]
+      ]
     }
+  },
+  "footer": {
+    "subscribe_title": "Test drive the data for yourself",
+    "subscribe_content": "Sign up to take your own data for a spin.",
+    "has_subscribe": true,
+    "social_title": "Community",
+    "tagline": "Data driven results. Because, math!",
+    "logo_img": "/images/single-track-logo-15.30.48.png",
+    "has_social": false,
+    "content": "&copy; SingleTrack. All rights reserved.",
+    "links": [
+      {
+        "text": "Made with love by Fieldtrip",
+        "url": "https://www.fieldtripinteractive.com",
+        "new_window": true
+      }
+    ],
+    "nav_title": "Company",
+    "has_nav": false
+  }
 }
